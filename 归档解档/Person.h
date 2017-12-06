@@ -9,6 +9,8 @@
 #import "BaseModel.h"
 
 @interface Person : BaseModel
+ /** 名字*/
 @property (nonatomic,copy)NSString *name;
+ /** 年龄*/
 @property (nonatomic,copy)NSString *age;
 @end
